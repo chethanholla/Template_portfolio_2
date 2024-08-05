@@ -1,0 +1,48 @@
+{
+    "certifications": [
+        {
+            "title": "Certificate Title",
+            "description": "Description.",
+            "image": "Certificate/Certificate.jpeg"
+        },
+        {
+            "title": "Certificate Title",
+            "description": "Description.",
+            "image": "Certificate/Certificate.jpeg"
+        },
+        {
+            "title": "Certificate Title",
+            "description": "Description.",
+            "image": "Certificate/Certificate.jpeg"
+        }
+    ],
+    "projects": [
+        {
+            "title": "Project Title",
+            "date": "20XX-20XX",
+            "tech_stack": "Technologies used",
+            "role": "Project Role",
+            "problem_statement": "Project Statement.",
+            "solution": "Your solution for Project.",
+            "url": "#"
+        },
+        {
+            "title": "Project Title",
+            "date": "20XX-20XX",
+            "tech_stack": "Technologies used",
+            "role": "Project Role",
+            "problem_statement": "Project Statement.",
+            "solution": "Your solution for Project.",
+            "url": "#"
+        },
+        {
+            "title": "Project Title",
+            "date": "20XX-20XX",
+            "tech_stack": "Technologies used",
+            "role": "Project Role",
+            "problem_statement": "Project Statement.",
+            "solution": "Your solution for Project.",
+            "url": "#"
+        }
+    ]
+}
