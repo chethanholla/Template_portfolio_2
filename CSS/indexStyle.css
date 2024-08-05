@@ -15,34 +15,19 @@ html {
     line-height: 1.8;
 }
 
-/* Create a Parallax Effect */
-.bgimg-1,
-.bgimg-2,
-.bgimg-3 {
+/*Parallax Effect */
+.bgimg-1 {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-/* First image (Logo. Full height) */
+/* First image*/
 .bgimg-1 {
     background-image: url("Images/technology-785742_1280.jpg");
     min-height: 700px;
     opacity: 1;
-}
-
-/* Second image (Portfolio) */
-.bgimg-2 {
-    background-image: url("Images/AdobeStock_307073324.jpeg");
-    min-height: 300px;
-    opacity: 1;
-}
-
-/* Third image (Contact) */
-.bgimg-3 {
-    background-image: url("/w3images/parallax3.jpg");
-    min-height: 400px;
 }
 
 .w3-wide {
@@ -56,9 +41,7 @@ html {
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1200px) {
 
-    .bgimg-1,
-    .bgimg-2,
-    .bgimg-3 {
+    .bgimg-1 {
         background-attachment: scroll;
         min-height: 400px;
     }
@@ -92,9 +75,7 @@ html {
 
 @media only screen and (max-device-width: 750px) {
 
-    .bgimg-1,
-    .bgimg-2,
-    .bgimg-3 {
+    .bgimg-1 {
         background-attachment: scroll;
         min-height: 250px;
     }
@@ -195,7 +176,6 @@ html {
     border: 2px solid #fff;
     width: 185px;
     align-items: center;
-    /* vertical-align: middle; */
     margin: 0 auto;
     font-size: 20px;
     padding: 10px 10px;
